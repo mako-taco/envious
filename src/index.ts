@@ -1,7 +1,3 @@
-export {
-  bool,
-  num,
-  regexp,
-  url,
-} from './define';
+import * as define from './define';
 export { parse } from './parse';
+export { define };
