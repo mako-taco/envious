@@ -1,0 +1,22 @@
+{
+  "name": "envious",
+  "version": "1.0.0",
+  "description": "Typescript friendly environment variable wrangling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mako-taco/envious.git"
+  },
+  "author": "Jake Scott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mako-taco/envious/issues"
+  },
+  "homepage": "https://github.com/mako-taco/envious#readme",
+  "dependencies": {
+    "@types/node": "^16.9.1"
+  }
+}
