@@ -22,7 +22,7 @@ export type EnvVarSpec<T = string> = {
   default?: T;
 };
 
-export type EnvVarSpecMap = Record<string, EnvVarSpec | 'warn' | 'error' | 'ignore'>;
+export type EnvVarSpecMap = Record<string, EnvVarSpec<any> | 'warn' | 'error' | 'ignore'>;
 
 export type ResultMap<T> = {
   [K in keyof T]: T[K] extends EnvVarSpec ? T[K]['default'] : string;
